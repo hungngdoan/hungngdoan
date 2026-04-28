@@ -5,8 +5,12 @@
     @keyframes swim-right { from{transform:translateX(-80px)} to{transform:translateX(930px)} }
     @keyframes swim-left { from{transform:translateX(930px)} to{transform:translateX(-80px)} }
     @keyframes pulse { 0%,100%{opacity:.08} 50%{opacity:.25} }
-    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
+    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
     @keyframes glow { 0%,100%{opacity:.5} 50%{opacity:.9} }
+    @keyframes rise { 0%{transform:translateY(0);opacity:.4} 100%{transform:translateY(-200px);opacity:0} }
+    @keyframes drift-r { 0%{transform:translate(0,0);opacity:.3} 50%{opacity:.5} 100%{transform:translate(40px,-180px);opacity:0} }
+    @keyframes drift-l { 0%{transform:translate(0,0);opacity:.3} 50%{opacity:.5} 100%{transform:translate(-35px,-180px);opacity:0} }
+    @keyframes sway { 0%,100%{transform:translateX(0)} 50%{transform:translateX(3px)} }
 
     .tw-a { animation: twinkle1 3s ease-in-out infinite }
     .tw-b { animation: twinkle2 4s ease-in-out infinite }
@@ -15,6 +19,10 @@
     .slash { animation: pulse 5s ease-in-out infinite }
     .sword { animation: float 3s ease-in-out infinite }
     .line-glow { animation: glow 4s ease-in-out infinite }
+    .note-rise { animation: rise 8s ease-out infinite }
+    .note-dr { animation: drift-r 10s ease-out infinite }
+    .note-dl { animation: drift-l 9s ease-out infinite }
+    .sway { animation: sway 4s ease-in-out infinite }
   </style>
 
   <!-- background -->
@@ -28,21 +36,117 @@
   </defs>
   <rect width="850" height="200" fill="url(#grid)"/>
 
+  <!-- ════ MUSIC STAFF LINES ════ -->
+  <!-- staff left side -->
+  <g opacity=".07">
+    <line x1="20" y1="55"  x2="280" y2="55"  stroke="#E4E2E2" stroke-width=".8"/>
+    <line x1="20" y1="65"  x2="280" y2="65"  stroke="#E4E2E2" stroke-width=".8"/>
+    <line x1="20" y1="75"  x2="280" y2="75"  stroke="#E4E2E2" stroke-width=".8"/>
+    <line x1="20" y1="85"  x2="280" y2="85"  stroke="#E4E2E2" stroke-width=".8"/>
+    <line x1="20" y1="95"  x2="280" y2="95"  stroke="#E4E2E2" stroke-width=".8"/>
+  </g>
+  <!-- staff right side -->
+  <g opacity=".07">
+    <line x1="570" y1="55"  x2="830" y2="55"  stroke="#E4E2E2" stroke-width=".8"/>
+    <line x1="570" y1="65"  x2="830" y2="65"  stroke="#E4E2E2" stroke-width=".8"/>
+    <line x1="570" y1="75"  x2="830" y2="75"  stroke="#E4E2E2" stroke-width=".8"/>
+    <line x1="570" y1="85"  x2="830" y2="85"  stroke="#E4E2E2" stroke-width=".8"/>
+    <line x1="570" y1="95"  x2="830" y2="95"  stroke="#E4E2E2" stroke-width=".8"/>
+  </g>
+  <!-- staff bottom (faint, wide) -->
+  <g opacity=".04">
+    <line x1="50"  y1="155" x2="800" y2="155" stroke="#E4E2E2" stroke-width=".6"/>
+    <line x1="50"  y1="165" x2="800" y2="165" stroke="#E4E2E2" stroke-width=".6"/>
+    <line x1="50"  y1="175" x2="800" y2="175" stroke="#E4E2E2" stroke-width=".6"/>
+    <line x1="50"  y1="185" x2="800" y2="185" stroke="#E4E2E2" stroke-width=".6"/>
+    <line x1="50"  y1="195" x2="800" y2="195" stroke="#E4E2E2" stroke-width=".6"/>
+  </g>
+
+  <!-- ════ TREBLE CLEF (left staff) ════ -->
+  <text x="30" y="88" font-family="serif" font-size="42" fill="#DC143C" opacity=".12" class="sway">&#119070;</text>
+
+  <!-- ════ TREBLE CLEF (right staff) ════ -->
+  <text x="580" y="88" font-family="serif" font-size="42" fill="#DC143C" opacity=".12" class="sway" style="animation-delay:2s">&#119070;</text>
+
+  <!-- ════ FLOATING MUSICAL NOTES ════ -->
+  <!-- quarter note rising left -->
+  <g class="note-rise" style="animation-delay:0s">
+    <ellipse cx="70" cy="180" rx="5" ry="3.5" fill="#DC143C" opacity=".5" transform="rotate(-20,70,180)"/>
+    <line x1="75" y1="180" x2="75" y2="158" stroke="#DC143C" stroke-width="1.2" opacity=".5"/>
+  </g>
+
+  <!-- eighth note drifting right -->
+  <g class="note-dr" style="animation-delay:2s">
+    <ellipse cx="160" cy="170" rx="4.5" ry="3" fill="#DC143C" opacity=".4" transform="rotate(-20,160,170)"/>
+    <line x1="164" y1="170" x2="164" y2="150" stroke="#DC143C" stroke-width="1" opacity=".4"/>
+    <path d="M164,150 Q170,153 168,158" stroke="#DC143C" stroke-width="1" fill="none" opacity=".4"/>
+  </g>
+
+  <!-- beamed eighth notes drifting left -->
+  <g class="note-dl" style="animation-delay:4s">
+    <ellipse cx="720" cy="175" rx="4" ry="2.8" fill="#DC143C" opacity=".35" transform="rotate(-20,720,175)"/>
+    <line x1="724" y1="175" x2="724" y2="155" stroke="#DC143C" stroke-width="1" opacity=".35"/>
+    <ellipse cx="734" cy="172" rx="4" ry="2.8" fill="#DC143C" opacity=".35" transform="rotate(-20,734,172)"/>
+    <line x1="738" y1="172" x2="738" y2="152" stroke="#DC143C" stroke-width="1" opacity=".35"/>
+    <line x1="724" y1="155" x2="738" y2="152" stroke="#DC143C" stroke-width="1.5" opacity=".35"/>
+  </g>
+
+  <!-- quarter note rising right -->
+  <g class="note-rise" style="animation-delay:5s">
+    <ellipse cx="790" cy="185" rx="4.5" ry="3" fill="#DC143C" opacity=".3" transform="rotate(-20,790,185)"/>
+    <line x1="794" y1="185" x2="794" y2="165" stroke="#DC143C" stroke-width="1" opacity=".3"/>
+  </g>
+
+  <!-- eighth note rising center-left -->
+  <g class="note-dr" style="animation-delay:7s">
+    <ellipse cx="250" cy="178" rx="4" ry="2.8" fill="#E4E2E2" opacity=".2" transform="rotate(-20,250,178)"/>
+    <line x1="254" y1="178" x2="254" y2="160" stroke="#E4E2E2" stroke-width="1" opacity=".2"/>
+    <path d="M254,160 Q259,163 257,167" stroke="#E4E2E2" stroke-width=".8" fill="none" opacity=".2"/>
+  </g>
+
+  <!-- beamed notes rising center-right -->
+  <g class="note-dl" style="animation-delay:3s">
+    <ellipse cx="600" cy="180" rx="4" ry="2.8" fill="#E4E2E2" opacity=".15" transform="rotate(-20,600,180)"/>
+    <line x1="604" y1="180" x2="604" y2="162" stroke="#E4E2E2" stroke-width="1" opacity=".15"/>
+    <ellipse cx="612" cy="177" rx="4" ry="2.8" fill="#E4E2E2" opacity=".15" transform="rotate(-20,612,177)"/>
+    <line x1="616" y1="177" x2="616" y2="159" stroke="#E4E2E2" stroke-width="1" opacity=".15"/>
+    <line x1="604" y1="162" x2="616" y2="159" stroke="#E4E2E2" stroke-width="1.2" opacity=".15"/>
+  </g>
+
+  <!-- ════ STATIC NOTES ON STAFF LINES (like sheet music) ════ -->
+  <!-- notes sitting on left staff -->
+  <ellipse cx="100" cy="75" rx="4" ry="3" fill="#DC143C" opacity=".1" transform="rotate(-20,100,75)"/>
+  <line x1="104" y1="75" x2="104" y2="57" stroke="#DC143C" stroke-width=".8" opacity=".1"/>
+  <ellipse cx="140" cy="65" rx="4" ry="3" fill="#DC143C" opacity=".08" transform="rotate(-20,140,65)"/>
+  <line x1="144" y1="65" x2="144" y2="47" stroke="#DC143C" stroke-width=".8" opacity=".08"/>
+  <ellipse cx="180" cy="85" rx="4" ry="3" fill="#DC143C" opacity=".1" transform="rotate(-20,180,85)"/>
+  <line x1="184" y1="85" x2="184" y2="67" stroke="#DC143C" stroke-width=".8" opacity=".1"/>
+  <ellipse cx="220" cy="55" rx="4" ry="3" fill="#DC143C" opacity=".07" transform="rotate(-20,220,55)"/>
+  <line x1="224" y1="55" x2="224" y2="37" stroke="#DC143C" stroke-width=".8" opacity=".07"/>
+  <ellipse cx="255" cy="75" rx="4" ry="3" fill="#DC143C" opacity=".09" transform="rotate(-20,255,75)"/>
+  <line x1="259" y1="75" x2="259" y2="57" stroke="#DC143C" stroke-width=".8" opacity=".09"/>
+
+  <!-- notes sitting on right staff -->
+  <ellipse cx="640" cy="85" rx="4" ry="3" fill="#DC143C" opacity=".1" transform="rotate(-20,640,85)"/>
+  <line x1="644" y1="85" x2="644" y2="67" stroke="#DC143C" stroke-width=".8" opacity=".1"/>
+  <ellipse cx="680" cy="65" rx="4" ry="3" fill="#DC143C" opacity=".08" transform="rotate(-20,680,65)"/>
+  <line x1="684" y1="65" x2="684" y2="47" stroke="#DC143C" stroke-width=".8" opacity=".08"/>
+  <ellipse cx="720" cy="75" rx="4" ry="3" fill="#DC143C" opacity=".1" transform="rotate(-20,720,75)"/>
+  <line x1="724" y1="75" x2="724" y2="57" stroke="#DC143C" stroke-width=".8" opacity=".1"/>
+  <ellipse cx="760" cy="55" rx="4" ry="3" fill="#DC143C" opacity=".07" transform="rotate(-20,760,55)"/>
+  <line x1="764" y1="55" x2="764" y2="37" stroke="#DC143C" stroke-width=".8" opacity=".07"/>
+  <ellipse cx="800" cy="85" rx="4" ry="3" fill="#DC143C" opacity=".09" transform="rotate(-20,800,85)"/>
+  <line x1="804" y1="85" x2="804" y2="67" stroke="#DC143C" stroke-width=".8" opacity=".09"/>
+
   <!-- stars -->
   <circle cx="40"  cy="22"  r="1"   fill="#E4E2E2" class="tw-a"/>
-  <circle cx="130" cy="65"  r="1.3" fill="#DC143C" class="tw-b" style="animation-delay:.5s"/>
-  <circle cx="210" cy="38"  r=".8"  fill="#E4E2E2" class="tw-a" style="animation-delay:1s"/>
+  <circle cx="130" cy="18"  r="1.3" fill="#DC143C" class="tw-b" style="animation-delay:.5s"/>
   <circle cx="320" cy="12"  r="1"   fill="#E4E2E2" class="tw-b" style="animation-delay:1.5s"/>
-  <circle cx="490" cy="30"  r="1.2" fill="#DC143C" class="tw-a" style="animation-delay:2s"/>
-  <circle cx="590" cy="18"  r=".8"  fill="#E4E2E2" class="tw-b" style="animation-delay:.8s"/>
-  <circle cx="710" cy="50"  r="1"   fill="#E4E2E2" class="tw-a" style="animation-delay:2.5s"/>
-  <circle cx="790" cy="28"  r="1.4" fill="#DC143C" class="tw-b" style="animation-delay:1.2s"/>
-  <circle cx="85"  cy="165" r=".8"  fill="#E4E2E2" class="tw-a" style="animation-delay:1.8s"/>
-  <circle cx="260" cy="178" r="1"   fill="#DC143C" class="tw-b" style="animation-delay:.3s"/>
-  <circle cx="660" cy="168" r="1"   fill="#E4E2E2" class="tw-a" style="animation-delay:2.2s"/>
-  <circle cx="810" cy="155" r=".8"  fill="#E4E2E2" class="tw-b" style="animation-delay:1.7s"/>
-  <circle cx="380" cy="175" r=".9"  fill="#DC143C" class="tw-a" style="animation-delay:.6s"/>
-  <circle cx="540" cy="160" r="1.1" fill="#E4E2E2" class="tw-b" style="animation-delay:1.1s"/>
+  <circle cx="490" cy="20"  r="1.2" fill="#DC143C" class="tw-a" style="animation-delay:2s"/>
+  <circle cx="590" cy="14"  r=".8"  fill="#E4E2E2" class="tw-b" style="animation-delay:.8s"/>
+  <circle cx="710" cy="22"  r="1"   fill="#E4E2E2" class="tw-a" style="animation-delay:2.5s"/>
+  <circle cx="790" cy="10"  r="1.4" fill="#DC143C" class="tw-b" style="animation-delay:1.2s"/>
+  <circle cx="210" cy="15"  r=".8"  fill="#E4E2E2" class="tw-a" style="animation-delay:1s"/>
 
   <!-- tessaiga wind scar — right cluster -->
   <g class="slash">
@@ -51,13 +155,13 @@
     <line x1="670" y1="5"  x2="770" y2="195" stroke="#DC143C" stroke-width="1"/>
   </g>
 
-  <!-- wind scar — left cluster (fainter) -->
+  <!-- wind scar — left cluster -->
   <g class="slash" style="animation-delay:2.5s">
     <line x1="75"  y1="5"  x2="175" y2="195" stroke="#DC143C" stroke-width="1"   opacity=".6"/>
     <line x1="95"  y1="5"  x2="195" y2="195" stroke="#DC143C" stroke-width="1.8" opacity=".4"/>
   </g>
 
-  <!-- fish swimming right (large, lower) -->
+  <!-- fish swimming right -->
   <g class="fish-r" style="animation-delay:-2s">
     <ellipse cx="0" cy="158" rx="13" ry="6.5" fill="#DC143C" opacity=".35"/>
     <polygon points="-13,158 -22,151 -22,165" fill="#DC143C" opacity=".35"/>
@@ -65,20 +169,12 @@
     <circle cx="7.8" cy="155.6" r=".8" fill="#E4E2E2" opacity=".8"/>
   </g>
 
-  <!-- fish swimming left (small, upper) -->
+  <!-- fish swimming left -->
   <g class="fish-l" style="animation-delay:-7s">
     <ellipse cx="0" cy="42" rx="9" ry="4.5" fill="#DC143C" opacity=".2"/>
     <polygon points="9,42 17,37 17,47" fill="#DC143C" opacity=".2"/>
     <circle cx="-5" cy="40.5" r="1.3" fill="#0D1117" opacity=".4"/>
     <circle cx="-4.3" cy="40.2" r=".6" fill="#E4E2E2" opacity=".5"/>
-  </g>
-
-  <!-- fish swimming right (medium, bottom) -->
-  <g class="fish-r" style="animation-delay:-11s">
-    <ellipse cx="0" cy="182" rx="10" ry="5" fill="#DC143C" opacity=".18"/>
-    <polygon points="-10,182 -18,177 -18,187" fill="#DC143C" opacity=".18"/>
-    <circle cx="5" cy="180.5" r="1.4" fill="#0D1117" opacity=".3"/>
-    <circle cx="5.6" cy="180.2" r=".6" fill="#E4E2E2" opacity=".4"/>
   </g>
 
   <!-- red accent underline -->
@@ -98,7 +194,7 @@
     SOFTWARE ENGINEER  &#183;  AI EXPLORER  &#183;  BUILDING COOL THINGS
   </text>
 
-  <!-- mini tessaiga (sword accent) -->
+  <!-- mini tessaiga -->
   <g transform="translate(572,78) rotate(35)" class="sword" opacity=".3">
     <rect x="0" y="0" width="2" height="22" rx="1" fill="#DC143C"/>
     <rect x="-3" y="22" width="8" height="2.5" rx="1" fill="#FFD700"/>
