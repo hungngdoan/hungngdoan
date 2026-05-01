@@ -4,6 +4,7 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=hungngdoan&label=Profile%20views&color=dc143c&style=flat-square" alt="profile views" />
+  &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/nguyendoan001/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -18,7 +19,7 @@ Software engineer focused on cloud data platforms, ETL pipelines, and analytics-
 - :cloud: Building cloud-based ETL applications with **GCP, Dataflow, BigQuery, Pub/Sub, and Cloud Composer**
 - :bar_chart: Turning high-volume raw data into reliable datasets for analytics and reporting
 - :mortar_board: TCU alum with a **B.S. in Computer Science** and **B.B.A. in Business Information Systems**
-- :longhorn: Starting the **MSAI program at UT Austin** in Fall 2026
+- :school: Starting the **MSAI program at UT Austin** in Fall 2026
 - :medal_sports: Certified **Google Cloud Professional Cloud Architect** and **AWS Developer - Associate**
 - :telescope: Currently studying **AI, Machine Learning, and Deep Learning**
 - :fish: Still happy to talk about tropical fish. Seriously.
