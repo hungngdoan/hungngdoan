@@ -10,12 +10,15 @@
 
 ### About Me
 
-Software engineer by day, AI student by night. I build side projects that nobody asked for and I love every minute of it. When I'm not coding, I'm either watching fish or rewatching Inuyasha for the 4th time.
+Software engineer focused on cloud data platforms, ETL pipelines, and analytics-ready datasets. Currently building and optimizing Java, Python, Spring Boot, and SQL workflows at a Fortune 500 financial services company, with plenty of Google Cloud in the mix.
 
-- :telescope: Currently diving deep into **AI & Machine Learning**
-- :seedling: Building things that teach me something new every week
-- :fish: Ask me about fish. Seriously.
-- :crossed_swords: **Inuyasha** is peak fiction and I will not be debating this
+- :cloud: Building cloud-based ETL applications with **GCP, Dataflow, BigQuery, Pub/Sub, and Cloud Composer**
+- :bar_chart: Turning high-volume raw data into reliable datasets for analytics and reporting
+- :mortar_board: TCU alum with a **B.S. in Computer Science** and **B.B.A. in Business Information Systems**
+- :longhorn: Starting the **MSAI program at UT Austin** in Fall 2026
+- :medal_sports: Certified **Google Cloud Professional Cloud Architect** and **AWS Developer - Associate**
+- :telescope: Currently studying **AI, Machine Learning, and Deep Learning**
+- :fish: Still happy to talk about tropical fish. Seriously.
 
 ---
 
@@ -31,6 +34,15 @@ Software engineer by day, AI student by night. I build side projects that nobody
 </p>
 
 > :point_up: More badges incoming as I ship more projects. No empty flexes here.
+
+---
+
+### Cloud
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTE4MC40MSAyMDMuMDFjLS43MiAyMi42NSAxMC42IDMyLjY4IDEwLjg4IDM5LjA1YTguMTY0IDguMTY0IDAgMCAxLTQuMSA2LjI3bC0xMi44IDguOTZhMTAuNjYgMTAuNjYgMCAwIDEtNS42MyAxLjkyYy0uNDMtLjAyLTguMTkgMS44My0yMC40OC0yNS42MWE3OC42MDggNzguNjA4IDAgMCAxLTYyLjYxIDI5LjQ1Yy0xNi4yOC44OS02MC40LTkuMjQtNTguMTMtNTYuMjEtMS41OS0zOC4yOCAzNC4wNi02Mi4wNiA3MC45My02MC4wNSA3LjEuMDIgMjEuNi4zNyA0Ni45OSA2LjI3di0xNS42MmMyLjY5LTI2LjQ2LTE0LjctNDYuOTktNDQuODEtNDMuOTEtMi40LjAxLTE5LjQtLjUtNDUuODQgMTAuMTEtNy4zNiAzLjM4LTguMyAyLjgyLTEwLjc1IDIuODItNy40MSAwLTQuMzYtMjEuNDgtMi45NC0yNC4yIDUuMjEtNi40IDM1Ljg2LTE4LjM1IDY1Ljk0LTE4LjE4YTc2Ljg1NyA3Ni44NTcgMCAwIDEgNTUuNjkgMTcuMjggNzAuMjg1IDcwLjI4NSAwIDAgMSAxNy42NyA1Mi4zNmwtLjAxIDY5LjI5ek05My45OSAyMzUuNGMzMi40My0uNDcgNDYuMTYtMTkuOTcgNDkuMjktMzAuNDcgMi40Ni0xMC4wNSAyLjA1LTE2LjQxIDIuMDUtMjcuNC05LjY3LTIuMzItMjMuNTktNC44NS0zOS41Ni00Ljg3LTE1LjE1LTEuMTQtNDIuODIgNS42My00MS43NCAzMi4yNi0xLjI0IDE2Ljc5IDExLjEyIDMxLjQgMjkuOTYgMzAuNDh6bTE3MC45MiAyMy4wNWMtNy44Ni43Mi0xMS41Mi00Ljg2LTEyLjY4LTEwLjM3bC00OS44LTE2NC42NWMtLjk3LTIuNzgtMS42MS01LjY1LTEuOTItOC41OGE0LjYxIDQuNjEgMCAwIDEgMy44Ni01LjI1Yy4yNC0uMDQtMi4xMyAwIDIyLjI1IDAgOC43OC0uODggMTEuNjQgNi4wMyAxMi41NSAxMC4zN2wzNS43MiAxNDAuODMgMzMuMTYtMTQwLjgzYy41My0zLjIyIDIuOTQtMTEuMDcgMTIuOC0xMC4yNGgxNy4xNmMyLjE3LS4xOCAxMS4xMS0uNSAxMi42OCAxMC4zN2wzMy40MiAxNDIuNjNMNDIwLjk4IDgwLjFjLjQ4LTIuMTggMi43Mi0xMS4zNyAxMi42OC0xMC4zN2gxOS43MmMuODUtLjEzIDYuMTUtLjgxIDUuMjUgOC41OC0uNDMgMS44NSAzLjQxLTEwLjY2LTUyLjc1IDE2OS45LTEuMTUgNS41MS00LjgyIDExLjA5LTEyLjY4IDEwLjM3aC0xOC42OWMtMTAuOTQgMS4xNS0xMi41MS05LjY2LTEyLjY4LTEwLjc1TDMyOC42NyAxMTAuN2wtMzIuNzggMTM2Ljk5Yy0uMTYgMS4wOS0xLjczIDExLjktMTIuNjggMTAuNzVoLTE4LjN6bTI3My40OCA1LjYzYy01Ljg4LjAxLTMzLjkyLS4zLTU3LjM2LTEyLjI5YTEyLjgwMiAxMi44MDIgMCAwIDEtNy44MS0xMS45MXYtMTAuNzVjMC04LjQ1IDYuMi02LjkgOC44My01Ljg5IDEwLjA0IDQuMDYgMTYuNDggNy4xNCAyOC44MSA5LjYgMzYuNjUgNy41MyA1Mi43Ny0yLjMgNTYuNzItNC40OCAxMy4xNS03LjgxIDE0LjE5LTI1LjY4IDUuMjUtMzQuOTUtMTAuNDgtOC43OS0xNS40OC05LjEyLTUzLjEzLTIxLTQuNjQtMS4yOS00My43LTEzLjYxLTQzLjc5LTUyLjM2LS42MS0yOC4yNCAyNS4wNS01Ni4xOCA2OS41Mi01NS45NSAxMi42Ny0uMDEgNDYuNDMgNC4xMyA1NS41NyAxNS42MiAxLjM1IDIuMDkgMi4wMiA0LjU1IDEuOTIgNy4wNHYxMC4xMWMwIDQuNDQtMS42MiA2LjY2LTQuODcgNi42Ni03LjcxLS44Ni0yMS4zOS0xMS4xNy00OS4xNi0xMC43NS02Ljg5LS4zNi0zOS44OS45MS0zOC40MSAyNC45Ny0uNDMgMTguOTYgMjYuNjEgMjYuMDcgMjkuNyAyNi44OSAzNi40NiAxMC45NyA0OC42NSAxMi43OSA2My4xMiAyOS41OCAxNy4xNCAyMi4yNSA3LjkgNDguMyA0LjM1IDU1LjQ0LTE5LjA4IDM3LjQ5LTY4LjQyIDM0LjQ0LTY5LjI2IDM0LjQyem00MC4yIDEwNC44NmMtNzAuMDMgNTEuNzItMTcxLjY5IDc5LjI1LTI1OC40OSA3OS4yNUE0NjkuMTI3IDQ2OS4xMjcgMCAwIDEgMi44MyAzMjcuNDZjLTYuNTMtNS44OS0uNzctMTMuOTYgNy4xNy05LjQ3YTYzNy4zNyA2MzcuMzcgMCAwIDAgMzE2Ljg4IDg0LjEyIDYzMC4yMiA2MzAuMjIgMCAwIDAgMjQxLjU5LTQ5LjU1YzExLjc4LTUgMjEuNzcgNy44IDEwLjEyIDE2LjM4em0yOS4xOS0zMy4yOWMtOC45Ni0xMS41Mi01OS4yOC01LjM4LTgxLjgxLTIuNjktNi43OS43Ny03Ljk0LTUuMTItMS43OS05LjQ3IDQwLjA3LTI4LjE3IDEwNS44OC0yMC4xIDExMy40NC0xMC42MyA3LjU1IDkuNDctMi4wNSA3NS40MS0zOS41NiAxMDYuOTEtNS43NiA0Ljg3LTExLjI3IDIuMy04LjcxLTQuMSA4LjQ0LTIxLjI1IDI3LjM5LTY4LjQ5IDE4LjQzLTgwLjAyeiIvPjwvc3ZnPg%3D%3D" />
+</p>
 
 ---
 
