@@ -4,6 +4,9 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=hungngdoan&label=Profile%20views&color=dc143c&style=flat-square" alt="profile views" />
+  <a href="https://www.linkedin.com/in/nguyendoan001/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
 </p>
 
 ---
