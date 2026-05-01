@@ -10,7 +10,7 @@
 
 ### About Me
 
-Software engineer by trade, AI student by obsession. I build side projects that nobody asked for and I love every minute of it. When I'm not coding, I'm either watching fish or rewatching Inuyasha for the 4th time.
+Software engineer by day, AI student by night. I build side projects that nobody asked for and I love every minute of it. When I'm not coding, I'm either watching fish or rewatching Inuyasha for the 4th time.
 
 - :telescope: Currently diving deep into **AI & Machine Learning**
 - :seedling: Building things that teach me something new every week
