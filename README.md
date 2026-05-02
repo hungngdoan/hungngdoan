@@ -88,6 +88,19 @@ Software engineer focused on cloud data platforms, ETL pipelines, and analytics-
 
 ---
 
+### MSAI Prep Journey
+
+<p align="left">
+  <a href="https://github.com/hungngdoan/MSAI-2026-Prep">
+    <img src="https://img.shields.io/badge/View_MSAI_2026_Prep-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Status-In_Progress-4285F4?style=for-the-badge" />
+</p>
+
+Tracking my preparation for the **UT Austin MSAI program** through AI fundamentals, math refreshers, programming practice, study notes, and learning milestones.
+
+---
+
 ### Project List
 
 <table>
