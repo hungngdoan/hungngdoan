@@ -98,18 +98,13 @@ Software engineer focused on cloud data platforms, ETL pipelines, and analytics-
   </tr>
   <tr>
     <td><b><a href="https://github.com/hungngdoan/opus-rewrap">opus-rewrap</a></b><br /><sub>Audio container repair tool</sub></td>
-    <td>opus-fixer fixes .opus files that contain Opus audio in the wrong container, usually WebM/Matroska files renamed to .opus. It remuxes them into real Ogg/Opus with <code>ffmpeg -c copy</code>, so there is no re-encoding and no quality loss.<br /><br /><sub>This tool is only for .opus files. It does not process MP3 files or convert MP3 to Opus.</sub></td>
+    <td>opus-rewrap fixes .opus files that contain Opus audio in the wrong container, usually WebM/Matroska files renamed to .opus. It remuxes them into real Ogg/Opus with <code>ffmpeg -c copy</code>, so there is no re-encoding and no quality loss.<br /><br /><sub>This tool is only for .opus files. It does not process MP3 files or convert MP3 to Opus.</sub></td>
     <td><img src="https://img.shields.io/badge/Live-2F855A?style=flat-square" /></td>
   </tr>
   <tr>
     <td><b>AI Learning Lab</b><br /><sub>Portfolio project placeholder</sub></td>
     <td>Applied ML experiments, model evaluation, and notebook-to-code practice</td>
     <td><img src="https://img.shields.io/badge/Planned-DC143C?style=flat-square" /></td>
-  </tr>
-  <tr>
-    <td><b>Cloud Data Pipeline</b><br /><sub>Portfolio project placeholder</sub></td>
-    <td>Terraform, Apache Beam, Dataflow, BigQuery, Pub/Sub, and analytics-ready datasets</td>
-    <td><img src="https://img.shields.io/badge/Designing-4285F4?style=flat-square" /></td>
   </tr>
   <tr>
     <td><b>Full-Stack Analytics App</b><br /><sub>Portfolio project placeholder</sub></td>
