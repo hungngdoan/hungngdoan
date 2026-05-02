@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" alt="Hung — Software Engineer · AI Explorer · Building Cool Things" width="100%" />
+  <img src="./banner.svg" alt="Hưng — Software Engineer · AI Explorer · Building Cool Things" width="100%" />
 </p>
 
 <p align="center">
