@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="./banner.svg" alt="Hưng — Software Engineer · AI Explorer · Building Cool Things" width="100%" />
+  <a href="https://hungngdoan.github.io/hung-blog/">
+    <img src="./banner.svg" alt="Hưng — Software Engineer · AI Explorer · Building Cool Things" width="100%" />
+  </a>
 </p>
 
 <p align="center">
@@ -7,6 +9,10 @@
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/nguyendoan001/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://hungngdoan.github.io/hung-blog/">
+    <img src="https://img.shields.io/badge/H%C6%B0ng%27s_Journal-Read-DC143C?style=flat-square&logo=rss&logoColor=white" alt="Hưng's Journal" />
   </a>
 </p>
 
