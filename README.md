@@ -5,14 +5,16 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=hungngdoan&label=Profile%20views&color=dc143c&style=flat-square" alt="profile views" />
+  <a href="https://github.com/hungngdoan">
+    <img src="https://hits.sh/github.com/hungngdoan.svg?view=total&style=flat&label=Profile%20views&color=FFD43B&labelColor=C69214&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0U0RTJFMiIgZD0iTTEyIDVjNS4yIDAgOS40IDQuMiAxMC43IDYuMy4zLjQuMy45IDAgMS40QzIxLjQgMTQuOCAxNy4yIDE5IDEyIDE5cy05LjQtNC4yLTEwLjctNi4zYy0uMy0uNC0uMy0uOSAwLTEuNEMyLjYgOS4yIDYuOCA1IDEyIDV6bTAgMmMtNC4yIDAtNy41IDMuMS04LjYgNSAxLjEgMS45IDQuNCA1IDguNiA1czcuNS0zLjEgOC42LTVDMTkuNSAxMC4xIDE2LjIgNyAxMiA3em0wIDIuNWEyLjUgMi41IDAgMTEwIDUgMi41IDIuNSAwIDAxMC01eiIvPjwvc3ZnPg%3D%3D" alt="profile views" />
+  </a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/nguyendoan001/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&labelColor=004182&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0U0RTJFMiIgZD0iTTUuMyA4LjloMy4ydjEwSDUuM3pNNi45IDUuMWMxIDAgMS44LjggMS44IDEuOHMtLjggMS44LTEuOCAxLjgtMS44LS44LTEuOC0xLjguOC0xLjggMS44LTEuOHptNC4xIDMuOGgzLjF2MS40aC4xYy40LS44IDEuNS0xLjcgMy4xLTEuNyAzLjMgMCAzLjkgMi4yIDMuOSA1djUuM0gxOHYtNC43YzAtMS4xIDAtMi42LTEuNi0yLjZzLTEuOCAxLjItMS44IDIuNXY0LjhIMTF6Ii8%2BPC9zdmc%2B" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="https://hungngdoan.github.io/hung-blog/">
-    <img src="https://img.shields.io/badge/H%C6%B0ng%27s_Journal-Read-DC143C?style=flat-square&logo=rss&logoColor=white" alt="Hưng's Journal" />
+    <img src="https://img.shields.io/badge/H%C6%B0ng%27s_Journal-Read-DC143C?style=flat&labelColor=8B0000&logo=rss&logoColor=white" alt="Hưng's Journal" />
   </a>
 </p>
 
