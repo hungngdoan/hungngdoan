@@ -20,7 +20,7 @@
 
 ### About Me
 
-Software engineer focused on cloud data platforms, ETL pipelines, and analytics-ready datasets. Currently building and optimizing Java, Python, Spring Boot, and SQL workflows at a Fortune 500 financial services company, with plenty of Google Cloud in the mix.
+Software engineer focused on cloud data platforms, ETL pipelines, and analytics-ready datasets. Currently building and optimizing Java, Python, Spring Boot, and SQL workflows at a financial services company, with plenty of Google Cloud in the mix.
 
 - :cloud: Building cloud-based ETL applications with **GCP, Terraform, Apache Beam, Dataflow, BigQuery, Pub/Sub, and Cloud Composer**
 - :bar_chart: Turning high-volume raw data into reliable datasets for analytics and reporting
