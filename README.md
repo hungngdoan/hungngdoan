@@ -76,7 +76,7 @@ Software engineer focused on cloud data platforms, ETL pipelines, and analytics-
     </td>
     <td width="33%" valign="top">
       <b>Data-to-AI Bridge</b><br />
-      <sub>Turning reliable cloud pipelines into clean, model-ready datasets for analytics and experimentation.</sub>
+      <sub>Turning reliable cloud pipelines into clean, model-ready datasets for analytics and experimentation!</sub>
     </td>
     <td width="33%" valign="top">
       <b>Tooling I Am Exploring</b><br />
