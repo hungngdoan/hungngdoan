@@ -30,6 +30,7 @@ Software engineer focused on cloud data platforms, ETL pipelines, and analytics-
 - :school: Starting the **MSAI program at UT Austin** in Fall 2026
 - :medal_sports: Certified <a href="https://www.credly.com/badges/df72e9eb-9d7a-4086-9d2f-5869047158d4" target="_blank" rel="noopener noreferrer"><b>Google Cloud Professional Cloud Architect</b></a> and <a href="https://www.credly.com/badges/bb23de26-0cb2-4f1a-ace7-424af8bc3c18/" target="_blank" rel="noopener noreferrer"><b>AWS Developer - Associate</b></a>
 - :telescope: Currently studying **AI, Machine Learning, and Deep Learning**
+- :sparkles: For a fun read, browse <a href="https://hungngdoan.github.io/hung-blog/" target="_blank" rel="noopener noreferrer"><b>H&#432;ng's Journal</b></a>, my casual space for reflections, creative notes, and off-hours writing
 - :fish: Still happy to talk about tropical fish. Seriously.
 
 ---
