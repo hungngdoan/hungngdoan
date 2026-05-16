@@ -14,7 +14,11 @@
   </a>
   &nbsp;&nbsp;
   <a href="https://hungngdoan.github.io/hung-blog/">
-    <img src="https://img.shields.io/badge/H%C6%B0ng%27s_Journal-Read-DC143C?style=flat&labelColor=8B0000&logo=rss&logoColor=white" alt="Hưng's Journal" />
+    <img src="https://img.shields.io/badge/H%C6%B0ng%27s_Journal-Read-C9515A?style=flat&labelColor=7A2E3A&logo=rss&logoColor=white" alt="Hưng's Journal" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://hungngdoan.github.io/MSAI-2026-Prep/">
+    <img src="https://img.shields.io/badge/MSAI_Prep-View-14B8A6?style=flat&labelColor=134E4A&logo=bookstack&logoColor=white" alt="MSAI Prep" />
   </a>
 </p>
 
@@ -101,7 +105,7 @@ Software engineer focused on cloud data platforms, ETL pipelines, and analytics-
 
 <p align="left">
   <a href="https://github.com/hungngdoan/MSAI-2026-Prep">
-    <img src="https://img.shields.io/badge/View_MSAI_2026_Prep-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
+    <img src="https://img.shields.io/badge/View_MSAI_2026_Prep-14B8A6?style=for-the-badge&amp;logo=bookstack&amp;logoColor=white" />
   </a>
   <img src="https://img.shields.io/badge/Status-In_Progress-4285F4?style=for-the-badge" />
 </p>
