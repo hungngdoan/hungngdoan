@@ -14,7 +14,11 @@
   </a>
   &nbsp;&nbsp;
   <a href="https://hungngdoan.github.io/hung-blog/">
-    <img src="https://img.shields.io/badge/H%C6%B0ng%27s_Journal-Read-DC143C?style=flat&labelColor=8B0000&logo=rss&logoColor=white" alt="Hưng's Journal" />
+    <img src="https://img.shields.io/badge/H%C6%B0ng%27s_Journal-Read-C9515A?style=flat&labelColor=7A2E3A&logo=rss&logoColor=white" alt="Hưng's Journal" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://hungngdoan.github.io/MSAI-2026-Prep/">
+    <img src="https://img.shields.io/badge/MSAI_Prep-View-14B8A6?style=flat&labelColor=134E4A&logo=bookstack&logoColor=white" alt="MSAI Prep" />
   </a>
 </p>
 
@@ -22,16 +26,16 @@
 
 ### About Me
 
-Software engineer focused on cloud data platforms, ETL pipelines, and analytics-ready datasets. Currently building and optimizing Java, Python, Spring Boot, and SQL workflows at a financial services company, with plenty of Google Cloud in the mix.
+Software engineer focused on cloud data platforms, ETL pipelines, and analytics-ready datasets. Currently building and optimizing data workflows in Java, Python, Spring Boot, and SQL at a Fortune 500 financial services firm.
 
-- :cloud: Building cloud-based ETL applications with **GCP, Terraform, Apache Beam, Dataflow, BigQuery, Pub/Sub, and Cloud Composer**
+- :cloud: Building cloud-based ETL applications with **Terraform, Apache Beam, Dataflow, BigQuery, Pub/Sub, and Cloud Composer**
 - :bar_chart: Turning high-volume raw data into reliable datasets for analytics and reporting
 - :mortar_board: TCU alum with a **B.S. in Computer Science** and **B.B.A. in Business Information Systems**
 - :school: Starting the **MSAI program at UT Austin** in Fall 2026
-- :medal_sports: Certified <a href="https://www.credly.com/badges/df72e9eb-9d7a-4086-9d2f-5869047158d4" target="_blank" rel="noopener noreferrer"><b>Google Cloud Professional Cloud Architect</b></a> and <a href="https://www.credly.com/badges/bb23de26-0cb2-4f1a-ace7-424af8bc3c18/" target="_blank" rel="noopener noreferrer"><b>AWS Developer - Associate</b></a>
 - :telescope: Currently studying **AI, Machine Learning, and Deep Learning**
+- :medal_sports: Certified <a href="https://www.credly.com/badges/df72e9eb-9d7a-4086-9d2f-5869047158d4" target="_blank" rel="noopener noreferrer"><b>Google Cloud Professional Cloud Architect</b></a> and <a href="https://www.credly.com/badges/bb23de26-0cb2-4f1a-ace7-424af8bc3c18/" target="_blank" rel="noopener noreferrer"><b>AWS Developer - Associate</b></a>
 - :sparkles: For a fun read, browse <a href="https://hungngdoan.github.io/hung-blog/" target="_blank" rel="noopener noreferrer"><b>H&#432;ng's Journal</b></a>, my casual space for reflections, creative notes, and off-hours writing
-- :fish: Still happy to talk about tropical fish. Seriously.
+- :tropical_fish: Still happy to talk about tropical fish. Seriously.
 
 ---
 
@@ -45,8 +49,6 @@ Software engineer focused on cloud data platforms, ETL pipelines, and analytics-
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
 </p>
-
-> :point_up: More badges incoming as I ship more projects. No empty flexes here.
 
 ---
 
@@ -64,49 +66,11 @@ Software engineer focused on cloud data platforms, ETL pipelines, and analytics-
 ### AI & Applied ML
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Artificial_Intelligence-0D1117?style=for-the-badge&amp;logoColor=white" />
-  <img src="https://img.shields.io/badge/Machine_Learning-DC143C?style=for-the-badge&amp;logoColor=white" />
-  <img src="https://img.shields.io/badge/Deep_Learning-6E40C9?style=for-the-badge&amp;logoColor=white" />
-  <img src="https://img.shields.io/badge/Data_Pipelines-4285F4?style=for-the-badge&amp;logoColor=white" />
-  <img src="https://img.shields.io/badge/Model_Evaluation-2F855A?style=for-the-badge&amp;logoColor=white" />
-</p>
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <b>Learning Track</b><br />
-      <sub>AI fundamentals, machine learning workflows, deep learning, and practical model evaluation.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>Data-to-AI Bridge</b><br />
-      <sub>Turning reliable cloud pipelines into clean, model-ready datasets for analytics and experimentation!</sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>Tooling I Am Exploring</b><br />
-      <sub>Python notebooks, feature engineering, experiment tracking, and production-minded ML patterns.</sub>
-    </td>
-  </tr>
-</table>
-
-<p align="left">
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&amp;logo=jupyter&amp;logoColor=white" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&amp;logo=numpy&amp;logoColor=white" />
   <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&amp;logo=pandas&amp;logoColor=white" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&amp;logo=scikitlearn&amp;logoColor=white" />
 </p>
-
----
-
-### MSAI Prep Journey
-
-<p align="left">
-  <a href="https://github.com/hungngdoan/MSAI-2026-Prep">
-    <img src="https://img.shields.io/badge/View_MSAI_2026_Prep-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
-  </a>
-  <img src="https://img.shields.io/badge/Status-In_Progress-4285F4?style=for-the-badge" />
-</p>
-
-Tracking my preparation for the **UT Austin MSAI program** through AI fundamentals, math refreshers, programming practice, study notes, and learning milestones.
 
 ---
 
